@@ -30,8 +30,6 @@ var popup = L.popup()
     .setContent("I am a standalone popup.")
     .openOn(map);
 
-var popup = L.popup();
-
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
